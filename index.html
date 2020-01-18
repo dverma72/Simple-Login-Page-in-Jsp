@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .main{
+                width: 100%;
+                background-image: linear-gradient(#E2471D, #1584EC);
+                min-height:100vh;
+                padding-top: 100px; 
+            }
+            .login_form{
+                
+                border: 1px black solid;
+                height: 200px;
+                width: 300px;
+                background-color: white;
+                margin: 0 auto;
+                margin-top: 100px;
+                
+                
+            }
+            
+            .login_table{
+                align-content: center;
+               border-spacing: 20px;
+
+                
+            }
+            .login_form_class{
+                margin: 0 auto;
+            }
+            .submit_button{
+                width: 100%;
+                background: #3791F0;
+                height: 30px
+                
+            }
+        </style>
+            
+    </head>
+    <body>
+        <div class="main"
+             >
+            
+        <div class="login_form">
+            <form class="login_form_class" action="login_code.jsp" method="POST" >
+            <table class="login_table">
+                <tr>
+                    <td>
+                        Enter Id:
+                    </td>
+                  <td>
+                      <input type="text" name="id"/>     
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        Enter password:
+                    </td>
+                  <td>
+                      <input type="text" name="pass"/>     
+                    </td>
+                </tr>
+                
+                
+                <td colspan="2" > <input class="submit_button" type="submit"  name="login"/></td>
+                </tr>
+                    
+            </table>
+                </form>
+            
+        </div>
+        </div>
+    </body>
+</html>
